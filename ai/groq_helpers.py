@@ -4,7 +4,7 @@ import json
 from helpers.pdf import fetch_nse_nifty50_sector_weights
 from collections import defaultdict
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "" 
 groq = Groq(api_key=GROQ_API_KEY)
 
 def generate_ai_rebalance(rows, total_value, risk_metrics, nifty_value):
