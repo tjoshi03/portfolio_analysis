@@ -1,0 +1,8 @@
+Flask
+yfinance
+pandas
+numpy
+feedparser
+requests
+tabula-py
+groq
